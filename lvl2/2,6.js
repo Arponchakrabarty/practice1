@@ -1,4 +1,4 @@
-var std=78
+var std=33
 console.log("std")
 if(std>=80){
     console.log("A+")
