@@ -3,11 +3,26 @@
 // * Next 100 units → 7 Tk/unit
 // * Above 200 units → 10 Tk/unit
 
-var unitUsed = 550
+var unit = 201
+var unitUsed
+if(unit<=100 && unit> 0){
+    unitUsed= unit*5
+}
 
-var first= 100*5;
-var sec = 100*7;
-var third= 350*10;
+else if (unit>100 && unit<=200 && unit> 0){
+    unitUsed= 100*5 
+    unitUsed += ((unit-100)*7)
+}
+else if(unit>200 && unit> 0){
+    unitUsed= 100*5
+    unitUsed +=100*7
+    unitUsed +=(unit-200)*10
+}
+else{
+    console.log("not eligible");
+}
+console.log("total used: ", unitUsed);
 
-var total = first + sec + third
-console.log(total)
+
+
+
