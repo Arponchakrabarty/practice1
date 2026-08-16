@@ -1,6 +1,7 @@
-// Find the sum of the digits of a 3-digit number
+// Find the sum of all digits of a number.
 
-var num= 789
+
+var num= 951
 var strNum= num.toFixed()
 var firstStr= `${strNum[0]}`
 var secondStr= `${strNum[1]}`
