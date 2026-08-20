@@ -11,11 +11,11 @@ const need= {
     name:"arpon",
     ...device
 }
-// console.log(need);
+console.log(need);
 
-const devide=["car", "bike", "phn"]
-const info= ["arpon","17"]
-const all=[...devide,...info]
-// console.log(all);
-// const [second,...first]=devide
-// console.log(first);
+// const devide=["car", "bike", "phn"]
+// const info= ["arpon","17"]
+// const all=[...devide,...info]
+// // console.log(all);
+// // const [second,...first]=devide
+// // console.log(first);
