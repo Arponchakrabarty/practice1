@@ -4,8 +4,7 @@ const device= {mobile:90000,
     car:1000000,
     house:5000000
 }
-const { laptop:ke,mobile, }= device
-console.log(ke);
+
 
 const need= {
     name:"arpon",
