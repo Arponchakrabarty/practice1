@@ -5,3 +5,5 @@ for(var i = 1; i<=10; i++){
     multiplication= num*i
     console.log(multiplication);
 }
+
+

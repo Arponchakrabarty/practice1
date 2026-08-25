@@ -12,9 +12,11 @@ const need= {
 }
 // console.log(need);
 
-const devide=["car", "bike", "phn"]
+const devide=["car", "bike", "phn","tablet"]
 const info= ["arpon","17"]
-const all=[...devide,...info]
+
 // console.log(all);
-// const [second,...first]=devide
-// console.log(first);
+const [second, third,...first]=devide
+console.log(first);
+const all=[...first]
+console.log(all);
