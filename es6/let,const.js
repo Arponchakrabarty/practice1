@@ -1,6 +1,6 @@
 var name = "arpon"
 const age= 17
-age =25
+// age =25
 console.log(age);
 
 if(1){
@@ -11,6 +11,7 @@ if(1){
 //     console.log(name);
     // name = "chakrabarty"
     const age=18
+    // age =19
     console.log(age);
 }
 console.log(name);

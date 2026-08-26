@@ -24,11 +24,11 @@ if (a > 5) {
 }
 
 console.log(b);
-ans: error
+ans: error/undefined
 
 
 5. What is the difference between null and undefined?
-ans: unfefined dile pore value set kora jay . null mane kunu value nai 
+ans: unfefined dile pore value set kora jay. null mane kunu value nai 
 
 
 6. What will this output?
@@ -39,7 +39,7 @@ console.log(typeof true);
 console.log(typeof undefined);
 console.log(typeof null);
 
-ans: number , string, boolean, undefined, object 
+ans: number, string, boolean, undefined, object 
 
 
 7. Write a function that takes two numbers and returns their sum.
@@ -48,7 +48,18 @@ ans:
 
 8. Write a function that receives a number and returns "Even" if it's even and "Odd" if it's odd.
 
+ans: 
 
+const odd= (num)=> {
+   if(num %2 ===0){
+  
+   return console.log("Even")
+}
+else{
+   return console.log("odd")
+} 
+}
+odd(16)
 
 Part 2 — Arrays & Objects
 9. Create an array containing:
