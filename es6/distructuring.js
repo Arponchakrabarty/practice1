@@ -4,8 +4,7 @@ const device= {mobile:90000,
     car:1000000,
     house:5000000
 }
-const { laptop:ke,mobile, }= device
-console.log(ke);
+
 
 const need= {
     name:"arpon",
@@ -19,3 +18,11 @@ console.log(need);
 // // console.log(all);
 // // const [second,...first]=devide
 // // console.log(first);
+const devide=["car", "bike", "phn","tablet"]
+const info= ["arpon","17"]
+
+// console.log(all);
+const [second, third,...first]=devide
+console.log(first);
+const all=[...first]
+console.log(all);
