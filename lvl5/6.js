@@ -11,7 +11,6 @@ console.log(final);
 if(final===num){
     console.log("armstrong number");
 }
-
 else{
     console.log("not a armstrong number");
 }
