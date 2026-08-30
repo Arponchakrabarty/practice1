@@ -1,5 +1,4 @@
 
-
 const odd= (num)=> {
    if(num %2 ===0){
   
