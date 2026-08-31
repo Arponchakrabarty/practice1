@@ -11,10 +11,10 @@ for(let i=0; i<students.length; i++){
 
 
 const newStd= students.map(data => data.name)
-// console.log(newStd);
+console.log(newStd);
 const fielterstd= students.filter(data=> data.marks<50)
 // console.log(newtd);
 const findstd= students.find(data=> data.name="Rahim")
 // console.log(findstd);
 const fistd= students.reduce((prv,cur)=>prv-cur.marks, 100)
-console.log(fistd);
+// console.log(fistd);
