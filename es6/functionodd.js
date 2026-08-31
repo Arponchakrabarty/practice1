@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 // // const odd= (num)=> {
 // //    if(num %2 ===0){
@@ -67,3 +68,15 @@
 
 
 
+=======
+const odd= (num)=> {
+   if(num %2 ===0){
+  
+   return console.log("Even")
+}
+else{
+   return console.log("odd")
+} 
+}
+odd(16)
+>>>>>>> 269e25c1917467f18060001f6d52d96595c82eea
