@@ -9,6 +9,23 @@ console.log(status1);
 button1.style.cursor="pointer"
 button1.addEventListener("click", ()=>{
     status1.textContent = "paid"
+    let newusername = document.createElement("input")
+    let newbutton = document.createElement("button")
+    newbutton.textContent= "login"
+    newbutton.classList.add("login")
+    document.getElementById("inputform").append(newbutton)
+    newusername.placeholder ="write your name"
+    newusername.classList.add("username") 
+    let login= document.querySelector(".login")
+    console.log(login);
+    login.addEventListener("click", ()=>{
+        console.log("button click");
+    })
+    // newusername.textContent= username
+    // let newPass = document.createElement("input")
+    // newPass.textContent= password
+    // document.getElementById("inputform").append(newusername)
+    // document.getElementById("inputform").append(newPass)
 })
 
 console.log(status2);
