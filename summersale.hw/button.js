@@ -9,3 +9,4 @@ button.style.cursor="pointer"
 button.addEventListener("click", ()=>{
     status.textContent = "paid"
 })
+
