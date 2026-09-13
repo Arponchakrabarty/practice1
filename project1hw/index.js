@@ -105,11 +105,5 @@ div9.addEventListener("click",()=>{
     show.append(newul)
 })
 
-// button.style.cursor="pointer"
-// button.addEventListener("click",()=>{
-//     console.log("clicked");
-//     show.append(discount)
-//     discount.textContent= tPrice-(20/100)
-// })
 
 
