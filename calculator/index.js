@@ -68,6 +68,7 @@ ac.addEventListener("click", ()=> {
     show.textContent="0"
 })
 back.addEventListener("click", ()=>{
+    show1=Number((show.textContent).slice(0,show.textContent.length-1))
     
     show.textContent= (show.textContent).slice(0,show.textContent.length-1)
     
