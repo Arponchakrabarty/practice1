@@ -28,8 +28,8 @@ let name6=document.getElementById("div6name")
 let name7=document.getElementById("div7name")
 let name8=document.getElementById("div8name")
 let name9=document.getElementById("div9name")
-let discount=document.getElementById("discount")
-let button=document.getElementById("button1")
+
+
 
 
 div1.style.cursor="pointer"
@@ -104,6 +104,7 @@ div9.addEventListener("click",()=>{
     newul.textContent= `name:${name9.textContent}, price:${tk9.textContent}`
     show.append(newul)
 })
+
 
 
 

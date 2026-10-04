@@ -17,8 +17,8 @@ button1.addEventListener("click",()=>{
 })
 button2.style.cursor="pointer"
 button2.addEventListener("click",()=>{
-    withTk.textContent= Number(input2.value)
-    balanceTk.textContent=Number(balanceTk.textContent)-Number(withTk.textContent)
+    withTk.textContent= Number(input2.value)+Number(withTk.textContent)
+    balanceTk.textContent=Number(balanceTk.textContent)-Number(input2.value)
     input2.value=""
 
     console.log(input1);
