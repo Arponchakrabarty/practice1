@@ -17,6 +17,7 @@ let equal= document.getElementById("e")
 let add= document.getElementById("add")
 let dot= document.getElementById("dot")
 let show= document.getElementById("show")
+let percent= document.getElementById("percent")
 let show1=""
 let isShow1=true
 let show2=""
@@ -29,11 +30,7 @@ isShow1=true
 show2=""
 operator=""
 final=""
-
-
 }
-
-
 
 
 
@@ -69,6 +66,7 @@ ac.addEventListener("click", ()=> {
 })
 back.addEventListener("click", ()=>{
     show1=Number((show.textContent).slice(0,show.textContent.length-1))
+    show2=""
     
     show.textContent= (show.textContent).slice(0,show.textContent.length-1)
     
@@ -76,7 +74,7 @@ back.addEventListener("click", ()=>{
 modulas.addEventListener("click", ()=>{
     isShow1=false
     operator="*"
-    show.textContent=show.textContent+ "*"
+    show.textContent=show.textContent+ "×"
 })
 mainus.addEventListener("click", ()=>{
     isShow1=false
@@ -86,7 +84,12 @@ mainus.addEventListener("click", ()=>{
 devide.addEventListener("click", ()=>{
     isShow1=false
     operator="/"
-    show.textContent=show.textContent+ "/"
+    show.textContent=show.textContent+ "÷"
+})
+percent.addEventListener("click", ()=>{
+    isShow1=false
+    operator="%"
+    show.textContent=show.textContent+ "%"
 })
 equal.addEventListener("click", ()=>{
     if(operator==="+"){
@@ -102,8 +105,15 @@ equal.addEventListener("click", ()=>{
     else if(operator==="/") {
         final= Number(show1)/Number(show2)
     }
+    else if(operator==="%") {
+        final= Number(show1)*Number(((show2.value)/100))
+    }
     show.textContent= final
+
+    show1=final
+    show2=""
     console.log(final);
+
 })
 add.addEventListener("click", ()=>{
     isShow1=false
