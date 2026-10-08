@@ -6,61 +6,60 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Document</title>
 </head>
-<body>
-    <div class="bg-black text- white " style="display: flex;
+<body class="item-center">
+  <div class="bg-black w-fit rounded-xl text- white flex item-center gap-1 ml-75 " style="display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;">
-        <div id="show" style="border: 2px solid salmon; 
-    height: 100px;
-    width: 108px;
+        <div id="show" style="border: 2px solid black;  
+    height: 60px;
+    width: 140px;
     border-radius:5px ;
-    ">
+    margin-bottom: 10px;
+    " class="text-white ">
       
     </div>
     <div>
-       <div  style="display: flex;" class="flex gap-1">
+       <div  style="display: flex;" class="flex gap-1 ">
            <div>
         <div >
         <button class="text-white text-xs bg-gray-400 w-10 h-10 rounded-full " id="b" >⌫</button>
         <button class="text-white text-xs bg-gray-400 w-10 h-10 rounded-full " id="a">Ac</button>
         <button class="text-white text-xs bg-gray-400 w-10 h-10 rounded-full " id="percent">%</button>
+        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="d">÷</button>
         </div>
-         <div>
+         <div class="flex gap-1 mt-1">
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="7">7</button>
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="8">8</button>
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="9">9</button>
+        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="m">×</button>
+
         </div>
-        <div class="flex gap-1">
+        <div class="flex gap-1 mt-2">
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="4">4</button>
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="5">5</button>
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="6">6</button>
+        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="s">-</button>
         </div>
         
-        <div class="gap-1">
+        <div class="flex gap-1 mt-2">
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="1">1</button>
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="2">2</button>
         <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="3">3</button>
+        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="add">+</button>
         </div>
-        <div class="flex gap-1 ">
+        <div class="flex gap-1 mt-2 ">
         
-            <button class="text-white text-xs bg-gray-500 w-10 h-10 rounded-full " id="0" >+/-</button>
-            <button class="text-white text-xs bg-gray-500 w-10 h-10 rounded-full " id="0" >0</button>
-            <button class="text-white bg-gray-500 p-5 w-10 h-10 rounded-full " id="dot" style="width: 23px;">.</button>
+            <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full ">+/-</button>
+            <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full " id="0" >0</button>
+            <button class="text-white text-xs bg-gray-700 w-10 h-10 rounded-full flex items-center justify-center" id="dot">.</button>
+            <button class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full " id="e">=</button>
         
         </div>
        
         
        </div>
-        <div style="display: flex;
-        flex-direction: column;
-        width: fit-content; " class="gap-1">
-        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="d">÷</button>
-        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="m">×</button>
-        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="s">-</button>
-        <button  class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full" id="add">+</button>
-        <button class="text-white text-xs bg-orange-500 w-10 h-10 rounded-full " id="e">=</button>
-        </div>
+
        </div>
         
     </div>
